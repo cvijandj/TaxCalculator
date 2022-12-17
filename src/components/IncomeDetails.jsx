@@ -15,7 +15,7 @@ export default function IncomeDetails (props) {
                           <input
                             type="number"
                             placeholder="0000"
-                            className= ' font-bold shadow-md  md:w-64 border-zinc-500 border-2 border-r-0 rounded-l-md '
+                            className= ' font-bold shadow-md text-center md:w-64 border-zinc-500 border-2 border-r-0 rounded-l-md '
                             onChange={(e) =>  props.setPayment(e.target.value)}
                             />
                           <DropDown period = {props.period}
