@@ -8,7 +8,7 @@ export default function Income(props) {
 	const annual = Math.round(props.income * 52);
 
 	return (
-		<div className="shadow-md opacity-80 bg-white flex flex-col items-center h-full w-full ">
+		<div className="shadow-md pl-2 md:pl-0 opacity-80 bg-white flex flex-col items-center h-full w-full ">
 			<div className=" opacity-100 flex flex-row pl-4 ">
 				<svg
 					className="w-10 mr-2 md:mr-5 h-auto hover:w-11"
